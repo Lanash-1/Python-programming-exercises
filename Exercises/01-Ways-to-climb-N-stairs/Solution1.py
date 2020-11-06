@@ -1,3 +1,16 @@
+'''
+Sample Input:
+2
+
+Sample Output:
+2
+ i.e:
+ 11
+ 2
+ total 2 ways
+'''
+
+
 No_of_stairs=int(input())  # initialize a vairable to get number of stairs from the user
 
 # initailze a, b, c = 0
