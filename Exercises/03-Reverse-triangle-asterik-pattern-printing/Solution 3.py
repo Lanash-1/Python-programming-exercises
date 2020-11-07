@@ -11,7 +11,6 @@ Sample Output:
 *4321
 54321
 
-
 '''
 
 N = int(input())                        # N represents no of rows

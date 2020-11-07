@@ -10,7 +10,6 @@ Sample Output:
  total 2 ways
 '''
 
-
 No_of_stairs=int(input())  # initialize a vairable to get number of stairs from the user
 
 # initailze a, b, c = 0
