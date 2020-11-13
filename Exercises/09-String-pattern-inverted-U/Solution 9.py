@@ -1,3 +1,22 @@
+'''
+Sample input:
+
+PANTHER
+PANDA
+ALLERGY
+
+Sample output:
+
+PANDA
+A***L
+N***L
+T***E
+H***R
+E***G
+R***Y
+
+'''
+
 s1 = input().strip()
 s2 = input().strip()
 s3 = input().strip()
