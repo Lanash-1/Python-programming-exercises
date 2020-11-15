@@ -1,3 +1,16 @@
+'''
+
+Sample input:
+
+adjAcENt
+
+Sample output:
+
+aDJACEnt
+
+
+'''
+
 S = input().strip()
 Slist = []
 for ch in S:
