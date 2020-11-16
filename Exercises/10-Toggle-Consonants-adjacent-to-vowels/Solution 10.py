@@ -29,7 +29,7 @@ for i in range(N):
         if Slist[i] not in vowels:
             if Slist[i-1] in vowels:
                 if Slist[i].isupper():
-                    Slsit[i] = S[i].lower()
+                    Slist[i] = S[i].lower()
                 else:
                     Slist[i] = S[i].upper()
     else:

@@ -2,12 +2,12 @@
 Sample input:
 
 PANTHER
-PANDA
+PATNA
 ALLERGY
 
 Sample output:
 
-PANDA
+PATNA
 A***L
 N***L
 T***E

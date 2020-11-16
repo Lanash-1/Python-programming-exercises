@@ -1,5 +1,15 @@
 '''
-Check the image given for the problem statement and the sample input and output.
+Sample input: 
+
+word dove think yellow wood
+
+Sample output: 
+
+dove wood
+
+///
+Check the image given for the problem statement and more sample input and output.
+///
 '''
 
 S = list(map(str, input().split()))    # Create a list S and store the given input by converting it into a list
