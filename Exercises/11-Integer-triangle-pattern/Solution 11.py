@@ -14,8 +14,8 @@ Sample output:
 
 '''
 
-N = int(input())                 # Store the no of number of rows in the variable N
-for row in range(1,N+1):             # for each row till Nth row
+NoOfRows = int(input())                 # Get NoOfRows from the user
+for row in range(1,NoOfRows+1):             # for each row till last row
     for element in range(1,row+1):       # for element in range from 1 to row
         print(element, end = " ")        # print the element
     print()                          # use a empty print statement to create a empty line   

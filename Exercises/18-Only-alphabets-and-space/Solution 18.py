@@ -1,4 +1,15 @@
-S = input().strip()
-for ch in S:
-    if(ch.isalpha()) or (ch == " "):
-        print(ch,end="")
+'''
+
+Sample input: 
+
+Hello  # @ World
+
+Sample output: 
+
+Hello    World
+
+'''
+String = input().strip()
+for character in String:
+    if(character.isalpha()) or (character == " "):
+        print(character,end="")

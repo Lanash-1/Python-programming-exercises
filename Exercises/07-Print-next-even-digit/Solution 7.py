@@ -12,9 +12,9 @@ Sample output 2:
 800
 '''
 
-N = input().strip()                 # Get the input from the user as a string and assign it to the variable N
+Number = input().strip()                 # Get the input from the user as a string and assign it to the variable Number
 
-for number in N:                                 # for each number in N
+for number in Number:                                 # for each number in Number
     if int(number) == 8 or int(number) == 9:     # if the number is equal to 8 or 9
         print("0", end="")                       # then print '0' 
     elif int(number)%2 == 0:                     # or if the number is even
