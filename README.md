@@ -4,3 +4,5 @@ I will solve the problem and share the solutions in this repository.
 
 Refer the image attached with each problem folder for the question
 Sample input and output are provided in the solution file also.
+
+Proper documentation of each problem has been done so that you will understand the logic of the problems easily.
