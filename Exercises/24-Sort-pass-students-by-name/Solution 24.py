@@ -14,18 +14,18 @@ Soundarya
 
 '''
 
-N = int(input())
+noOfStudents = int(input())
 info = []
-for i in range(N):
+for i in range(noOfStudents):
     info.append(list(map(str, input().strip().split())))
 names = []
-for i in range(N):
+for i in range(noOfStudents):
     names.append((info[i])[0])
 marks = []
 for i in info:
     marks.append(i[1:])
 result = []
-for i in range(N):
+for i in range(noOfStudents):
     total = 0
     average = 0
     for m in marks[i]:

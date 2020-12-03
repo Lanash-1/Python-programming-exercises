@@ -11,14 +11,11 @@ en
 
 '''
 
-s1 = input().strip()
-s2 = input().strip()
-s2 = s2[::-1] 
-minlen = 0
-if(len(s1) < len(s2)):
-    minlen = len(s1)
-else:
-    minlen = len(s2)
-for i in range(minlen):
-    if s1[i] == s2[i]:
-        print(s1[i], end="")
+firstWord = input().strip()
+secondWord = input().strip()
+secondWord = secondWord[::-1] 
+for i in range(len(firstWord)):
+    if firstWord[i] == secondWord[i]:
+        print(firstWord[i], end="")
+    else:
+        break
