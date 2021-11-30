@@ -7,5 +7,4 @@ Refer the image attached with each problem folder for the question.
 <br>
 Sample input and output are provided in the solution file.
 
-
 ---
